@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Pirmas pavyzdys su flexbox išdėstymu ir flexgrow */
+.container1 {
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+}
+
+.items1 {
+    background-color: orange;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 28px;
+}
+
+.item1 {
+    flex-grow: 2;
+}
+
+.item2 {
+    flex-grow: 3;
+}
+
+.item3 {
+    flex-grow: 2;
+}
+
+
+/* Antras pavyzdys padarant flexboxe kelias eilutes */
+.container2 {
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.items2 {
+    background-color: bisque;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 38px;
+}
+
+.item4 {
+    width: 25%;
+}
+
+.item5 {
+    width: 60%;
+}
+
+.item6 {
+    width: 40%;
+}
+
+.item7 {
+    width: 40%;
+}
+
+.item8 {
+    width: 20%;
+}
+
+
+/* Trečias pavyzdys su horizontaliu lygiavimu bei lygiavimu tarp eilučių */
+.container3 {
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 600px;
+    align-content: space-around;
+}
+
+.items3 {
+    height: 100px;
+    border: 1px solid black;
+    font-size: 38px;
+    background-color: cadetblue;
+    width: 30%;
+}
+
+
+/* Ketvirtas pavyzdys su vertikaliu lygiavimu */
+.container4 {
+    display: flex;
+    background-color: tomato;
+    height: 300px;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.items4 {
+    border: 1px solid black;
+    height: 100px;
+    background-color: rgb(44, 152, 44);
+    font-size: 38px;
+    width: 50%;
+}
+
+
+/* Penktas pavyzdys, lygiavimas su justify-content ir align-items, KAI išdėstyta yra viskas stulpeliu */
+.container5 {
+    display: flex;
+    background-color: chartreuse;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items5 {
+    background-color: chocolate;
+    border: 1px solid black;
+    height: 100px;
+    font-size: 38px;
+    width: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

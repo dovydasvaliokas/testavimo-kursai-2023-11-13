@@ -1,0 +1,7 @@
+.divas {
+    height: 100px;
+    width: 45%;
+    border: 1px solid black;
+    background-color: burlywood;
+    display: inline-block;
+}

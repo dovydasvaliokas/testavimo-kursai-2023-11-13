@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.virsutinis {
+    height: 50px;
+    width: 90%;
+    background-color: bisque;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.soninis-didesnis {
+    height: 120px;
+    width: 45%;
+    background-color: aqua;
+    display: inline-block;
+}
+
+.soninis-mazesnis {
+    height: 50px;
+    width: 100%;
+    background-color: cadetblue;
+    display: block;
+}
+
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.bespalvis {
+    background-color: white;
+}

@@ -1,0 +1,28 @@
+#pastraipa1 {
+    color: burlywood;
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+.pastraipos-su-stilium {
+    color: blueviolet;
+    background-color: crimson;
+    /* Border kai viską viename išvardiname */
+    border: 4px dashed green;
+    /* Border, kai vardiname atskirai */
+    border-width: 4px;
+    border-style: dashed;
+    border-color: green;
+
+    /* Padding išvardinti visi atskirai */
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+
+    /* Padding išvardinta kartu */
+    padding: 20px 10px 25px 15px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
