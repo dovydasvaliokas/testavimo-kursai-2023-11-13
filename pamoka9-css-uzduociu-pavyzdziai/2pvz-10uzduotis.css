@@ -1,0 +1,38 @@
+div {
+    font-size: 48px;
+}
+
+.nav {
+    background-color: rgb(9, 125, 110);
+    width: 15%;
+}
+
+.header {
+    background-color: limegreen;
+    height: 150px;
+}
+
+.footer {
+    background-color: lime;
+    height: 150px;
+}
+
+.article {
+    background-color: gray;
+    height: 400px;
+}
+
+.aside {
+    background-color: bisque;
+    width: 20%;
+}
+
+.isorinis-eilute {
+    display: flex;
+}
+
+.isorinis-stulpeliu {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
